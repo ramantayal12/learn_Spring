@@ -1,5 +1,3 @@
-package spring_boot_starter;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,6 +6,7 @@ public class hello_web_app {
 
     public static void main(String []args ){
 
-        SpringApplication.run(hello_web_app.class,args);
+        SpringApplication.run( hello_web_app.class,args);
+        System.out.println("Hello World ");
     }
 }
