@@ -1,0 +1,6 @@
+Java files added directly under main/java folder
+considered as default
+When a class doesn’t include a package declaration
+it is considered to be in the “default package”.
+The use of the “default package” is generally discouraged,
+ and should be avoided.
