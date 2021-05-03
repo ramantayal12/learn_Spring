@@ -4,11 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class hello_web_app {
-
+public class hello_spring {
     public static void main(String []args ){
 
-        SpringApplication.run( hello_web_app.class,args);
-        System.out.println("Hello World ");
+        SpringApplication.run( hello_spring.class,args);
     }
 }

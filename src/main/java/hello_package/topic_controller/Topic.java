@@ -1,11 +1,11 @@
 package hello_package.topic_controller;
 
-public class topic1 {
+public class Topic {
 
     private int id;
     private String name,description ;
 
-    public topic1(int id, String name, String description) {
+    public Topic(int id, String name, String description) {
         this.id = id;
         this.name = name;
         this.description = description;
