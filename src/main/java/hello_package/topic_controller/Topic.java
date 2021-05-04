@@ -5,6 +5,8 @@ public class Topic {
     private int id;
     private String name,description ;
 
+    public Topic(){}
+
     public Topic(int id, String name, String description) {
         this.id = id;
         this.name = name;
@@ -33,5 +35,11 @@ public class Topic {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public void setTopic(Topic topic) {
+        this.id = topic.getId ();
+        this.description = topic.getDescription ();
+        this.name = topic.getName ();
     }
 }

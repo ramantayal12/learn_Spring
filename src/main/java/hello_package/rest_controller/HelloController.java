@@ -14,7 +14,7 @@ particular request
 
  */
 @RestController
-public class hello_controller {
+public class HelloController {
 
     @RequestMapping("/hello")
     public String say_hi(){
